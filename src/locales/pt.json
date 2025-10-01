@@ -1,0 +1,182 @@
+{
+  "infos": {
+    "adress": "Belo Horizonte / MG ",
+    "adressSecundario": "A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expedienteSecundario": "A_Definir",
+    "obs": "A_Definir"
+  },
+  "navbar": {
+    "menuItems": {
+      "home": "Início",
+      "service": "Serviços",
+      "about": "Sobre Nós",
+      "faq": "Perguntas Frequentes"
+    },
+    "ctaButtonText": "Contato",
+    "ctaButtonTextResponsive": "Contato"
+  },
+  "hero": {
+    "miniTag": "Gomíde Advocacia & Compliance Jurídico",
+    "title": "Verdade, Técnica e Coragem",
+    "subtitle": "A tríade que guia nossa atuação.",
+    "ctaButtonText": "Fale conosco",
+    "obsHero": {
+      "text": "A_Definir"
+    }
+  },
+  "features": {
+    "miniTag": "ÁREAS DE ATUAÇÕES",
+    "title": "Atuação Jurídica com excelência",
+    "subtitle": "Soluções personalizadas para defender seus direitos em diferentes ramos do Direito.",
+    "card1": {
+      "title": "Regularização de Imóveis e Inventários",
+      "subtitle": "Patrimônio em ordem é segurança para o presente e valor para o futuro.",
+      "description": "Resolvemos de forma ágil em cartório ou, quando necessário, na Justiça: <br/><br/> • Usucapião; <br/>• Direito de Laje; <br/> • Averbação de Construção; <br/>• Retificação de Área; <br/>• Desmembramento/unificação de lotes; <br/> • Instituição e Convenção de Condomínio; <br/> • Inventário (extrajudicial e judicial). <br/>",
+      "buttonLabelModal": "",
+      "buttonLabel": "Saiba mais"
+    },
+    "card2": {
+      "title": "Cobrança Judicial de Títulos Inadimplidos",
+      "subtitle": "Inadimplência não é prejuízo: é crédito a recuperar.",
+      "description": "Atuamos na recuperação de valores sem custos iniciais, tanto para empresas quanto para pessoas físicas: <br/><br/>• Mensalidades escolares não pagas; <br/>• Contratos de serviços ou fornecimento não quitados; <br/>• Notas fiscais, boletos e duplicatas em atraso; <br/>• Cheques e notas promissórias; <br/>• Aluguéis e acordos descumpridos.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Saiba mais"
+    },
+    "card3": {
+      "title": "Saúde – Planos de Saúde",
+      "subtitle": "Quando a saúde não pode esperar, a Justiça não atrasa.",
+      "description": "Defendemos pacientes contra negativas abusivas dos planos de saúde: <br/><br/>• Exames urgentes; <br/>• Cirurgias e internações; <br/>• Fornecimento de medicamentos. <br/><br/>Ingressamos com ações rápidas e liminares emergenciais para garantir o tratamento no tempo certo.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Saiba mais"
+    },
+    "card4": {
+      "title": "<i>Compliance Jurídico</i> Jurídico",
+      "subtitle": "Prevenir riscos é mais inteligente do que remediar crises.",
+      "description": "Blindamos empresas contra riscos jurídicos e reputacionais: <br/><br/>• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance Contratual – análise e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Saiba mais"
+    },
+    "card5": {
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card6": {
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    }
+  },
+  "maps": {
+    "minitag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "embedsrc": "A_Definir"
+  },
+  "about": {
+    "imagem": {
+      "alt": "imagem about"
+    },
+    "miniTag": "SOBRE NÓS",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso com a verdade, técnica e coragem em cada decisão jurídica.",
+    "buttonModalLabelAbout": "Continuar lendo",
+    "paragraph": "Na Gomíde – Advocacia & Compliance Jurídico, atuamos com clareza, estratégia e precisão técnica.  <br/><br/> Nossa prática é guiada pela tríade que sustenta cada decisão: Verdade, Técnica e Coragem.  <br/><br/> Entregamos soluções jurídicas eficazes, com visão moderna e combativa, sempre focados em resultados concretos para nossos clientes.  <br/><br/>",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
+    "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
+    "ctaButtonText": "Entre em contato",
+    "aboutSocial": {
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
+    }
+  },
+  "news": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "description": "A_Definir"
+  },
+  "ctaSecondary": {
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Entre em Contato"
+  },
+  "steps": {
+    "miniTag": "PASSO A PASSO",
+    "title": "Como funciona nosso atendimento?",
+    "subtitle": "",
+    "cards": {
+      "card1": {
+        "stepNumber": 1,
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+      },
+      "card2": {
+        "stepNumber": 2,
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+      },
+      "card3": {
+        "stepNumber": 3,
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+      },
+      "card4": {
+        "stepNumber": 4,
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+      }
+    }
+  },
+  "blog": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "labelCards": "A_Definir",
+    "label": "Clique aqui para ver todas as matérias",
+    "blogLink": "A_Definir"
+  },
+  "faq": {
+    "miniTag": "TIRE SUAS DÚVIDAS",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+    "questions": {
+      "question1": {
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+      },
+      "question2": {
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+      },
+      "question3": {
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+      },
+      "question4": {
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+      }
+    },
+    "paragraph": "Clique aqui caso tenha mais dúvidas"
+  },
+  "footer": {
+    "copyrightLine": "{{year}} - {{name}} - Todos os direitos reservados",
+    "footerDivulgacaoText": "Gostaria de ter um site como este? Clique aqui",
+    "midSectionName": "Até mais",
+    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+    "footerSocialText": "A_Definir",
+    "footerNavegacaoText": "NAVEGAÇÃO"
+  }
+}
