@@ -22,12 +22,13 @@ export default function About({ modal = true, showGallery, colorMode }) {
   };
   const textClasses = {
     dark: "text-white",
-    light: "text-black",
+    light: "text-colorTexto",
     default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
-  const subtitleColor = colorMode === "light" ? "text-black/80" : "text-white";
+  const subtitleColor =
+    colorMode === "light" ? "text-colorTexto" : "text-white";
 
   // Puxando apenas textos via i18n
   const aboutText = t("about", { returnObjects: true });

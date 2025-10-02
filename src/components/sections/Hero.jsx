@@ -120,9 +120,9 @@ export default function Hero({
     HeroContent = renderHeroContent({
       minititleColor: isMobile
         ? "bg-minititle text-white"
-        : "bg-primary text-minititleDarkLabel",
-      titleTextColor: "text-primary",
-      subtitleTextColor: "text-primary",
+        : "bg-primary text-white",
+      titleTextColor: "text-colorFooter",
+      subtitleTextColor: "text-colorFooter",
       obsTextColorOverride: "text-primary",
     });
   }

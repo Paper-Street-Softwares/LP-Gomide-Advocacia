@@ -4,12 +4,12 @@ export default function IconButtonFeatureCard(props) {
   // Definir classes de cor com base no modo
   const bgClasses = {
     dark: "bg-white",
-    light: "bg-iconButtons",
+    light: "bg-buttonColor",
     default: "bg-iconButtons",
   };
   const textClasses = {
     dark: "text-black",
-    light: "text-black",
+    light: "text-colorTexto",
     default: "text-black",
   };
 

@@ -44,19 +44,19 @@ export default function ListGroupSocial({
   }, []);
 
   const getTextColor = () => {
-    if (colorMode === "light") return "text-colorTexto";
+    if (colorMode === "light") return "text-white";
     if (colorMode === "dark") return "text-white";
     return scrolling ? "text-white" : "text-white";
   };
 
   const getHoverTextColor = () => {
-    if (colorMode === "light") return "hover:text-colorTexto";
+    if (colorMode === "light") return "hover:text-white";
     if (colorMode === "dark") return "hover:text-white";
     return scrolling ? "text-white" : "text-white";
   };
 
   const getBorderColor = () => {
-    if (colorMode === "light") return "bg-colorTexto";
+    if (colorMode === "light") return "bg-white";
     if (colorMode === "dark") return "bg-white";
     return scrolling ? "bg-white" : "bg-white";
   };
