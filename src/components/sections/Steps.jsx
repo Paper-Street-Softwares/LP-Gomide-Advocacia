@@ -18,7 +18,7 @@ export default function Steps({ colorMode }) {
   };
   const textClasses = {
     dark: "text-white",
-    light: "text-black",
+    light: "text-colorTexto",
     default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;

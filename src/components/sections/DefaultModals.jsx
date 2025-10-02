@@ -40,7 +40,7 @@ export default function FeaturesParagraphs({ colorMode }) {
   };
   const textClasses = {
     dark: "text-white",
-    light: "text-black",
+    light: "text-colorTexto",
     default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
@@ -78,7 +78,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="#D4AF37"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -89,10 +89,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
+                  color="bg-colorTexto"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -113,7 +113,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="#D4AF37"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -124,10 +124,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
+                  color="bg-colorTexto"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -161,7 +161,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="#D4AF37"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -172,10 +172,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
                   label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
+                  color="bg-colorTexto"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -202,7 +202,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="#D4AF37"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -213,10 +213,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
+                  color="bg-colorTexto"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>

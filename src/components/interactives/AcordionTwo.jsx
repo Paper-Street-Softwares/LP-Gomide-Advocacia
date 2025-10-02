@@ -42,7 +42,7 @@ export default function AccordionExpandDefault() {
             id={`panel${num}-header`}
           >
             <Typography>
-              <h1 className="font-bold font-secondFont">
+              <h1 className="font-bold font-secondFont text-primary">
                 {t(`faq.questions.question${num}.question`)}
               </h1>
             </Typography>
@@ -50,7 +50,7 @@ export default function AccordionExpandDefault() {
           <AccordionDetails>
             <Typography>
               <p
-                className="font-secondFont text-paragraph4 text-paragraphLight"
+                className="font-secondFont text-paragraph4 text-colorTexto"
                 dangerouslySetInnerHTML={{
                   __html: t(`faq.questions.question${num}.answer`),
                 }}

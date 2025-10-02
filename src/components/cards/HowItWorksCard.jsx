@@ -11,7 +11,7 @@ export default function HowItWorksCard({
 
   switch (colorMode) {
     case "light":
-      textColor = "text-black";
+      textColor = "text-colorTexto";
       textOpacity = "opacity-90";
       break;
     case "dark":
@@ -27,7 +27,7 @@ export default function HowItWorksCard({
 
   const BaseContent = (
     <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
+      <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-colorTexto text-title1 font-semibold">
         {number}
       </div>
 
