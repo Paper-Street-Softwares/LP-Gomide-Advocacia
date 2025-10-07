@@ -92,7 +92,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
                   color="bg-[#4A0D1F]"
-                  textclassName="text-[#CBA46A]"
+                  textclassName="text-labelFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -127,7 +127,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
                   color="bg-[#4A0D1F]"
-                  textclassName="text-[#CBA46A]"
+                  textclassName="text-labelFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -175,7 +175,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                   label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
                   color="bg-[#4A0D1F]"
-                  textclassName="text-[#CBA46A]"
+                  textclassName="text-labelFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -216,7 +216,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
                   color="bg-[#4A0D1F]"
-                  textclassName="text-[#CBA46A]"
+                  textclassName="text-labelFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>

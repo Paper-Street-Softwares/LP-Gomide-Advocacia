@@ -14,6 +14,7 @@ export const theme = {
       colorFooter: "#D4AF37",
       colorTexto: "#0A2A43",
       textButtonsFeature: "#D4AF37",
+      labelFeature: "#CBA46A",
 
       // Fundos de Seção
 
