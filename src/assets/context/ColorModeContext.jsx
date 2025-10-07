@@ -3,7 +3,7 @@ import { createContext, useState, useContext } from "react";
 const ColorModeContext = createContext();
 
 export function ColorModeProvider({ children }) {
-  const [colorMode, setColorMode] = useState("dark"); // default, light ou dark
+  const [colorMode, setColorMode] = useState("default"); // default, light ou dark
 
   return (
     <ColorModeContext.Provider value={{ colorMode, setColorMode }}>

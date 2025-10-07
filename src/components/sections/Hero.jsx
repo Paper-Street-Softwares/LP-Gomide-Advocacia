@@ -18,7 +18,7 @@ export default function Hero({
   const backgroundClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "from-bgSectionDark to-darker",
+    default: "from-colorNavbar to-darker",
   };
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
 
@@ -111,7 +111,7 @@ export default function Hero({
     HeroContent = renderHeroContent({
       minititleColor: isMobile
         ? "bg-minititle text-white"
-        : "bg-primary text-minititleDarkLabel",
+        : "bg-minititle text-minititleDarkLabel",
       titleTextColor: isMobile ? "text-primary" : "text-primary",
       subtitleTextColor: "text-primary",
       obsTextColorOverride: "text-primary",
@@ -119,10 +119,10 @@ export default function Hero({
   } else {
     HeroContent = renderHeroContent({
       minititleColor: isMobile
-        ? "bg-minititle text-white"
-        : "bg-primary text-white",
+        ? "bg-minititle text-primary"
+        : "bg-minititle text-primary",
       titleTextColor: "text-colorFooter",
-      subtitleTextColor: "text-white",
+      subtitleTextColor: "text-colorFooter",
       obsTextColorOverride: "text-primary",
     });
   }

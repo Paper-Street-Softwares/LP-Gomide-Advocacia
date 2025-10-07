@@ -17,12 +17,12 @@ export default function Faq({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "bg-bgSectionLight",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-colorTexto",
-    default: "text-black",
+    default: "text-colorTexto",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
