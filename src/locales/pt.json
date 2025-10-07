@@ -27,7 +27,7 @@
   },
   "features": {
     "miniTag": "ÁREAS DE ATUAÇÕES",
-    "title": "Atuação Jurídica com excelência",
+    "title": "Atuação Jurídica com qualidade",
     "subtitle": "Soluções personalizadas para defender seus direitos em diferentes ramos do Direito.",
     "card1": {
       "title": "Regularização de Imóveis e Inventários",
@@ -51,7 +51,7 @@
       "buttonLabel": "Saiba mais"
     },
     "card4": {
-      "title": "<i>Compliance Jurídico</i> Jurídico",
+      "title": "<i>Compliance</i> Jurídico",
       "subtitle": "Prevenir riscos é mais inteligente do que remediar crises.",
       "description": "Blindamos empresas contra riscos jurídicos e reputacionais: <br/><br/>• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance Contratual – análise e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial.",
       "buttonLabelModal": "A_Definir",
@@ -86,7 +86,7 @@
     "title": "Nossa trajetória",
     "subtitle": "Compromisso com a verdade, técnica e coragem em cada decisão jurídica.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Na Gomíde – Advocacia & Compliance Jurídico, atuamos com clareza, estratégia e precisão técnica.  <br/><br/> Nossa prática é guiada pela tríade que sustenta cada decisão: Verdade, Técnica e Coragem.  <br/><br/> Entregamos soluções jurídicas eficazes, com visão moderna e combativa, sempre focados em resultados concretos para nossos clientes.  <br/><br/>",
+    "paragraph": "Na Gomíde – Advocacia & Compliance Jurídico, atuamos com clareza, estratégia e precisão técnica. <br/><br/>Nossa conduta é guiada por princípios sólidos e pela busca constante por soluções jurídicas eficazes.<br/><br/>Com uma visão moderna e combativa, trabalhamos para alcançar resultados concretos e justos para nossos clientes.<br/><br/>",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
@@ -107,7 +107,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-colorTexto font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-colorTexto font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-colorFooter font-bold\">Sua demanda exige resposta imediata. </span> Fale agora com a Gomíde pelo <span class=\"text-colorFooter font-bold\">WhatsApp.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"

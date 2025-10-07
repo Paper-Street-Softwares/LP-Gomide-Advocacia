@@ -87,8 +87,8 @@ export default function NavbarSocial({ colorMode, mode }) {
     }
     if (colorMode === "dark") {
       return scrolling
-        ? "bg-gradient-to-b from-black to-bgFixedDark shadow-lg border-b-[1px] border-primary transition-all duration-1000"
-        : "bg-gradient-to-b from-black to-bgFixedDark border-b-[1px] border-none transition-colors duration-1000";
+        ? "bg-colorNavbar shadow-lg border-b-[1px] border-primary transition-all duration-1000"
+        : "bg-colorNavbar border-b-[1px] border-none transition-colors duration-1000";
     }
     // default
     return scrolling
@@ -104,7 +104,7 @@ export default function NavbarSocial({ colorMode, mode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer"
+            className="cursor-pointer flex justify-center items-center tablet1:justify-start"
             spy={true}
             smooth={true}
             duration={500}
@@ -116,9 +116,9 @@ export default function NavbarSocial({ colorMode, mode }) {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[30%] mw-[50%] tablet2:w-[25%] desktop1:w-[20%] transition-all duration-1000"
-                  : "my-[20px] w-[40%] tablet1:w-[40%] tablet2:w-[35%] desktop1:w-[40%] desktop2:w-[30%] transition-all duration-1000"
-              } tablet3:mb-0`}
+                  ? "w-[30%] mw-[50%] tablet1:w-[20%] tablet2:w-[20%] desktop1:w-[20%] desktop2:w-[15%] transition-all duration-1000"
+                  : "w-[40%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[30%] desktop2:w-[20%] transition-all duration-1000"
+              } tablet3:mb-0 ml-[17%] phone2:ml-[13%] phone3:ml-[12%] tablet1:ml-0`}
             />
           </ScrollLink>
 

@@ -122,7 +122,7 @@ export default function Hero({
         ? "bg-minititle text-white"
         : "bg-primary text-white",
       titleTextColor: "text-colorFooter",
-      subtitleTextColor: "text-colorFooter",
+      subtitleTextColor: "text-white",
       obsTextColorOverride: "text-primary",
     });
   }
@@ -157,8 +157,8 @@ export default function Hero({
                         className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
                         ${
                           colorMode === "light"
-                            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/10"
-                            : "shadow-custom-opacity shadow-shadowHero/10"
+                            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/0"
+                            : "shadow-custom-opacity shadow-shadowHero/0"
                         }`}
                       />
                     </picture>

@@ -40,7 +40,7 @@ export default function FeaturesParagraphs({ colorMode }) {
   };
   const textClasses = {
     dark: "text-white",
-    light: "text-colorTexto",
+    light: "text-primary",
     default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
@@ -62,7 +62,7 @@ export default function FeaturesParagraphs({ colorMode }) {
         <div className="flex flex-col tablet1:flex-row justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
           {/* Coluna esquerda */}
           <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-center ">
-            <MotionDivDownToUp>
+            <MotionDivDownToUp> 
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={t("features.card1.title")}
@@ -91,8 +91,8 @@ export default function FeaturesParagraphs({ colorMode }) {
                   size="small"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
-                  color="bg-colorTexto"
-                  textclassName="text-textButtonsFeature"
+                  color="bg-[#4A0D1F]"
+                  textclassName="text-[#CBA46A]"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -126,8 +126,8 @@ export default function FeaturesParagraphs({ colorMode }) {
                   size="small"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
-                  color="bg-colorTexto"
-                  textclassName="text-textButtonsFeature"
+                  color="bg-[#4A0D1F]"
+                  textclassName="text-[#CBA46A]"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -174,8 +174,8 @@ export default function FeaturesParagraphs({ colorMode }) {
                   size="small"
                   label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
-                  color="bg-colorTexto"
-                  textclassName="text-textButtonsFeature"
+                  color="bg-[#4A0D1F]"
+                  textclassName="text-[#CBA46A]"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -215,8 +215,8 @@ export default function FeaturesParagraphs({ colorMode }) {
                   size="small"
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
-                  color="bg-colorTexto"
-                  textclassName="text-textButtonsFeature"
+                  color="bg-[#4A0D1F]"
+                  textclassName="text-[#CBA46A]"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
