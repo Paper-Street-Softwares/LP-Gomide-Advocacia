@@ -18,7 +18,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-colorFooter",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
