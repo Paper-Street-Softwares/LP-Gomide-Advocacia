@@ -20,14 +20,14 @@ export default function HowItWorksCard({
       break;
     case "default":
     default:
-      textColor = "text-white";
+      textColor = "text-colorTexto";
       textOpacity = "opacity-80";
       break;
   }
 
   const BaseContent = (
     <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-colorTexto text-title1 font-semibold">
+      <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-white text-title1 font-semibold">
         {number}
       </div>
 
@@ -35,7 +35,7 @@ export default function HowItWorksCard({
         {title}
       </h1>
       <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
+        className={`text-[16px] text-center font-secondFont desktop1:text-left w-full ${textColor} ${textOpacity}`}
       >
         {description}
       </p>
@@ -50,7 +50,7 @@ export default function HowItWorksCard({
       <h1 className="text-[20px] text-colorWhite font-bold mb-[24px]">
         {title}
       </h1>
-      <p className="text-[16px] text-colorWhite opacity-70 text-center desktop1:text-left w-full">
+      <p className="text-[16px] text-colorWhite opacity-70 text-center font-secondFont desktop1:text-left w-full">
         {description}
       </p>
     </div>

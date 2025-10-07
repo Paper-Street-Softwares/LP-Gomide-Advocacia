@@ -18,17 +18,17 @@ export default function About({ modal = true, showGallery, colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "bg-colorFooter",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-colorTexto",
-    default: "text-white",
+    default: "text-colorTexto",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
   const subtitleColor =
-    colorMode === "light" ? "text-colorTexto" : "text-white";
+    colorMode === "light" ? "text-colorTexto" : "text-colorTexto";
 
   // Puxando apenas textos via i18n
   const aboutText = t("about", { returnObjects: true });
@@ -67,6 +67,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
             type="article"
             titleColorSet={titleColor}
             subtitleColorSet={subtitleColor}
+            miniTitleBgColor="bg-minititleDark"
           />
           <MotionDivDownToUp>
             {modal ? (

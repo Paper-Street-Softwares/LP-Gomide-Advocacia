@@ -36,7 +36,7 @@ export default function FeaturesParagraphs({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "bg-bgSectionLight",
   };
   const textClasses = {
     dark: "text-white",
@@ -56,13 +56,14 @@ export default function FeaturesParagraphs({ colorMode }) {
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode={colorMode}
+        miniTitleBgColor="bg-minititleDark"
       />
 
       <SectionWrapper>
-        <div className="flex flex-col tablet1:flex-row justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
+        <div className="flex flex-col tablet1:flex-row justify-center items-stretch tablet1:items-stretch w-full gap-6 tablet1:gap-6 desktop1:gap-1">
           {/* Coluna esquerda */}
-          <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-center ">
-            <MotionDivDownToUp> 
+          <div className="flex flex-col gap-6 items-center tablet1:items-center justify-between h-full flex-1">
+            <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={t("features.card1.title")}
@@ -134,18 +135,18 @@ export default function FeaturesParagraphs({ colorMode }) {
           </div>
 
           {/* Imagem central */}
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
+          <MotionDivDownToUp className="flex justify-center w-[90%] desktop1:w-[35%] m-auto ">
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
-              className="hidden h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+              className=" h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               loading="lazy"
             />
           </MotionDivDownToUp>
 
           {/* Coluna direita */}
-          <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-end">
-            <MotionDivDownToUp>
+          <div className="flex flex-col gap-6 items-center tablet1:items-center justify-between h-full flex-1">
+            <MotionDivDownToUp className="bg-green-00">
               <IconButtonFeatureCard
                 icon={content.texts.features.card3.icon}
                 title={t("features.card3.title")}
@@ -243,4 +244,3 @@ export default function FeaturesParagraphs({ colorMode }) {
     </SectionArea>
   );
 }
-
