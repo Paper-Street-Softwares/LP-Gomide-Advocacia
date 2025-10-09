@@ -50,6 +50,8 @@ export default function Faq({ colorMode }) {
               className="hoover:scale-0 desktop1:hover:scale-10 transition-all duration-300"
               label={t("faq.paragraph")}
               colorMode={colorMode}
+              color="bg-bgLogo"
+              textclassName="text-minititleLightLabel"
             />
           </Paragraphs>
         </MotionDivDownToUp>

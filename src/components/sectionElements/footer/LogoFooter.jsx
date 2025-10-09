@@ -9,7 +9,7 @@ function LogoFooter() {
         <img
           src={content.texts.navbar.logo.img}
           alt={content.texts.navbar.logo.alt}
-          className="max-h-[88px] w-auto bg-primary p-1 rounded-md "
+          className="max-h-[88px] w-auto rounded-md "
         ></img>
       </div>
     </MotionDivDownToUp>

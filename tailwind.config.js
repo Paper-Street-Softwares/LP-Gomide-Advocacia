@@ -7,8 +7,8 @@ export const theme = {
 
       primary: "#4B0F1F",
       buttonColor: "#D4AF37",
-      minititleDark: "#4B0F1F", //bg minitag de seções claras
-      minititle: "#D4AF37", //bg minitag de seções escuras
+      minititleDark: "#18252E", //bg minitag de seções claras
+      minititle: "#18252E", //bg minitag de seções escuras
       secondary: "#000000",
       colorNavbar: "#4B0F1F",
       colorFooter: "#D4AF37",
@@ -16,16 +16,17 @@ export const theme = {
       textButtonsFeature: "#D4AF37",
       labelFeature: "#CBA46A",
       bgSectionLight: "",
+      bgLogo: "#18252E",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
       bgSectionDark: "#FFFFFF",
-      bgSectionOpacityLight: "#F7F7F7",
+      bgSectionOpacityLight: "#F0F0F0",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#363636",
       bgFixedDark: "#181818",
-      bgSectionLight: "#c7c7c7",
+      bgSectionLight: "#F0F0F0",
 
       // Degradê da Lpv
 
@@ -36,13 +37,13 @@ export const theme = {
 
       links: "#0189BB",
       iconButtons: "#D4AF37",
-      labelButtons: "#4B0F1F",
-      minititleLightLabel: "#FFFFFF", //label das minitag de seções claras
-      minititleDarkLabel: "#FFFFFF", //label minitag de seções escuras
+      labelButtons: "#000",
+      minititleLightLabel: "#D4AF37", //label das minitag de seções claras
+      minititleDarkLabel: "#D4AF37", //label minitag de seções escuras
 
       // Sombras
 
-      shadowHero: "#000000",
+      shadowHero: "#D4AF37",
       shadowFeatures: "#000000",
       shadowAbouts: "#000000",
       shadowSteps: "#000000",
@@ -61,7 +62,7 @@ export const theme = {
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Roboto"],
+      secondFont: ["Roboto", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },

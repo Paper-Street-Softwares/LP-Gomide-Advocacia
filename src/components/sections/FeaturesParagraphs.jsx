@@ -52,7 +52,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className="bg-transparent"
                   labelColor="text-white"
                   label={t(`features.${cardKey}.buttonLabel`)}
                   buttonLink={t("links.ctaWhatsapp")}
