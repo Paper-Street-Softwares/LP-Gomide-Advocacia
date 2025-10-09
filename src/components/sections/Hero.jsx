@@ -18,7 +18,7 @@ export default function Hero({
   const backgroundClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "from-colorNavbar to-darker",
+    default: "bg-white",
   };
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
 
