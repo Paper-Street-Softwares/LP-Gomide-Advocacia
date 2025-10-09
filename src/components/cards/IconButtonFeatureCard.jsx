@@ -5,7 +5,7 @@ export default function IconButtonFeatureCard(props) {
   const bgClasses = {
     dark: "bg-primary",
     light: "bg-buttonColor",
-    default: "bg-primary",
+    default: "bg-bgLogo",
   };
   const textClasses = {
     dark: "text-black",
@@ -25,22 +25,22 @@ export default function IconButtonFeatureCard(props) {
 
   return (
     <div
-      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:min-h-[300px] tablet1:max-w-[200px] desktop1:max-w-[250px] flex flex-col items-center justify-between p-4 rounded-md ${className}`}
+      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:min-h-[300px] tablet1:max-w-[200px] desktop1:max-w-[250px] flex flex-col items-center p-4  rounded-md ${className}`}
     >
       <div
-        className={`h-[64px] w-[64px] mb-[24px] rounded-md flex justify-center items-center ${bgClass}`}
+        className={`h-[64px] w-[64px] mb-[24px] rounded-full flex justify-center items-center ${bgClass}`}
       >
         {renderIcon}
       </div>
 
       <h1
-        className={`h-auto font-bold font-mainFont text-paragraph5 text-center mb-[16px] ${textClass}`}
+        className={`h-auto mb-3 font-bold font-mainFont text-paragraph5 text-center ${textClass}`}
       >
         {title}
       </h1>
 
       <p
-        className={`text-center opacity-70 font-secondFont text-paragraph3 w-[90%] pb-4 ${textClass}`}
+        className={`text-center mb-6 opacity-70 font-secondFont text-paragraph3 w-[90%] ${textClass}`}
       >
         {paragraph}
       </p>

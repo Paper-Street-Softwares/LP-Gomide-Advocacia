@@ -42,7 +42,7 @@ export default function AccordionExpandDefault() {
             id={`panel${num}-header`}
           >
             <Typography>
-              <h1 className="font-bold font-secondFont text-primary">
+              <h1 className="font-bold font-secondFont text-colorTexto">
                 {t(`faq.questions.question${num}.question`)}
               </h1>
             </Typography>

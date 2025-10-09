@@ -41,7 +41,7 @@ export default function FeaturesParagraphs({ colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-primary",
-    default: "text-black",
+    default: "text-colorTexto",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -75,25 +75,25 @@ export default function FeaturesParagraphs({ colorMode }) {
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#D4AF37"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
+                      stroke="#4B0F1F"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
                     >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   }
                   size="small"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
-                  color="bg-[#4A0D1F]"
-                  textclassName="text-labelFeature"
+                  color="bg-transparent"
+                  textclassName="text-primary"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -110,25 +110,25 @@ export default function FeaturesParagraphs({ colorMode }) {
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#D4AF37"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
+                      stroke="#4B0F1F"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
                     >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   }
                   size="small"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
-                  color="bg-[#4A0D1F]"
-                  textclassName="text-labelFeature"
+                  color="bg-transparent"
+                  textclassName="text-primary"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -158,25 +158,25 @@ export default function FeaturesParagraphs({ colorMode }) {
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#D4AF37"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
+                      stroke="#4B0F1F"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
                     >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   }
                   size="small"
                   label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
-                  color="bg-[#4A0D1F]"
-                  textclassName="text-labelFeature"
+                  color="bg-transparent"
+                  textclassName="text-primary"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -199,25 +199,25 @@ export default function FeaturesParagraphs({ colorMode }) {
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
+                      width="16"
+                      height="16"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#D4AF37"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
+                      stroke="#4B0F1F"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
                     >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   }
                   size="small"
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
-                  color="bg-[#4A0D1F]"
-                  textclassName="text-labelFeature"
+                  color="bg-transparent"
+                  textclassName="text-primary"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -227,7 +227,7 @@ export default function FeaturesParagraphs({ colorMode }) {
 
       {/* Modal */}
       <Dialog
-        className="font-secondFont"
+        className="font-secondFont text-colorTexto [&_*]:text-colorTexto"
         closeIcon={<X size={20} />}
         header={
           <div className="w-full border-b border-gray-300 pb-2">
@@ -237,7 +237,11 @@ export default function FeaturesParagraphs({ colorMode }) {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "300px", "1024px": "300px", "641px": "300px" }}
+        breakpoints={{
+          "4000px": "300px",
+          "1024px": "300px",
+          "641px": "300px",
+        }}
       >
         {modalContent}
       </Dialog>
