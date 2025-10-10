@@ -107,7 +107,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-colorTexto font-bold\">Sua demanda exige resposta imediata. </span> Fale agora com a Gomíde pelo <span class=\"text-colorTexto font-bold\">WhatsApp.</span>",
+    "title": "<span class=\"text-colorFooter font-bold\">Sua demanda exige resposta imediata. </span> Fale agora com a Gomíde pelo <span class=\"text-colorFooter font-bold\">WhatsApp.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"

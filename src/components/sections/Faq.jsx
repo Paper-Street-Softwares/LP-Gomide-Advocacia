@@ -22,7 +22,7 @@ export default function Faq({ colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-colorTexto",
-    default: "text-colorTexto",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
@@ -37,6 +37,7 @@ export default function Faq({ colorMode }) {
         sectionHeaderSubtitle={t("faq.subtitle")}
         titleColorSet={titleColor}
         subtitleColorSet={titleColor}
+        miniTitleTextColor="text-minititleDarkLabel"
       />
       <SectionWrapper className="flex justify-center">
         <MotionDivDownToUp className="flex justify-center w-full">
@@ -50,8 +51,8 @@ export default function Faq({ colorMode }) {
               className="hoover:scale-0 desktop1:hover:scale-10 transition-all duration-300"
               label={t("faq.paragraph")}
               colorMode={colorMode}
-              color="bg-bgLogo"
-              textclassName="text-minititleLightLabel"
+              color="bg-buttonColor"
+              textclassName="text-black"
             />
           </Paragraphs>
         </MotionDivDownToUp>

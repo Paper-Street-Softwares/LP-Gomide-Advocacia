@@ -18,7 +18,7 @@ export default function Hero({
   const backgroundClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "squares",
+    default: "bg-bgFixedDark",
   };
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
 
@@ -49,7 +49,7 @@ export default function Hero({
         </MotionDivDownToUp>
 
         <MotionDivDownToUp>
-          <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
+          <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start mt-3 font-secondFont text-paragraph4 phone3:text-paragraph5">
             <p className={`mb-[32px] ${subtitleTextColor}`}>
               {t("hero.subtitle")}
             </p>
@@ -124,7 +124,7 @@ export default function Hero({
         ? "bg-minititle text-minititleLightLabel "
         : "bg-minititle text-minititleLightLabel",
       titleTextColor: "text-colorFooter",
-      subtitleTextColor: "text-colorTexto",
+      subtitleTextColor: "text-white",
       obsTextColorOverride: "text-primary",
     });
   }
