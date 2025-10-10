@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Dialog } from "primereact/dialog";
-import { X } from "lucide-react";
+import { X, ArrowRight } from "lucide-react";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import SectionArea from "../sectionElements/SectionArea";
@@ -40,8 +40,8 @@ export default function FeaturesParagraphs({ colorMode }) {
   };
   const textClasses = {
     dark: "text-white",
-    light: "text-primary",
-    default: "text-colorTexto",
+    light: "text-textButtonsFeature",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -73,27 +73,16 @@ export default function FeaturesParagraphs({ colorMode }) {
               >
                 <Button
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#4B0F1F"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
-                    >
-                      <path d="M5 12h14" />
-                      <path d="m12 5 7 7-7 7" />
-                    </svg>
+                    <ArrowRight
+                      className="text-textButtonsFeature"
+                      width={18}
+                    />
                   }
                   size="small"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
                   color="bg-transparent"
-                  textclassName="text-primary"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -108,27 +97,16 @@ export default function FeaturesParagraphs({ colorMode }) {
               >
                 <Button
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#4B0F1F"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
-                    >
-                      <path d="M5 12h14" />
-                      <path d="m12 5 7 7-7 7" />
-                    </svg>
+                    <ArrowRight
+                      className="text-textButtonsFeature"
+                      width={18}
+                    />
                   }
                   size="small"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
                   color="bg-transparent"
-                  textclassName="text-primary"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -156,27 +134,16 @@ export default function FeaturesParagraphs({ colorMode }) {
               >
                 <Button
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#4B0F1F"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
-                    >
-                      <path d="M5 12h14" />
-                      <path d="m12 5 7 7-7 7" />
-                    </svg>
+                    <ArrowRight
+                      className="text-textButtonsFeature"
+                      width={18}
+                    />
                   }
                   size="small"
                   label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
                   color="bg-transparent"
-                  textclassName="text-primary"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
@@ -197,27 +164,16 @@ export default function FeaturesParagraphs({ colorMode }) {
               >
                 <Button
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="#4B0F1F"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-arrow-right-icon lucide-arrow-right"
-                    >
-                      <path d="M5 12h14" />
-                      <path d="m12 5 7 7-7 7" />
-                    </svg>
+                    <ArrowRight
+                      className="text-textButtonsFeature"
+                      width={18}
+                    />
                   }
                   size="small"
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
                   color="bg-transparent"
-                  textclassName="text-primary"
+                  textclassName="text-textButtonsFeature"
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>

@@ -5,7 +5,7 @@ export default function ParagraphSemFading() {
   const { t } = useTranslation();
 
   return (
-    <Paragraphs className="text-colorTexto text-opacity-80">
+    <Paragraphs className="text-colroTextoSecundario text-opacity-80">
       <Trans i18nKey="about.paragraph" components={{ br: <br /> }} />
     </Paragraphs>
   );
