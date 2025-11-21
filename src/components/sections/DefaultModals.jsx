@@ -117,7 +117,7 @@ export default function FeaturesParagraphs({ colorMode }) {
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
-              className=" h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+              className=" h-[640px] opacity-60 object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               loading="lazy"
             />
           </MotionDivDownToUp>
@@ -194,9 +194,9 @@ export default function FeaturesParagraphs({ colorMode }) {
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
         breakpoints={{
-          "4000px": "300px",
-          "1024px": "300px",
-          "641px": "300px",
+          "4000px": "310px",
+          "1024px": "310px",
+          "641px": "310px",
         }}
       >
         {modalContent}

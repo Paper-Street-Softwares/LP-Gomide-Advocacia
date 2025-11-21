@@ -28,32 +28,32 @@
   "features": {
     "miniTag": "ÁREAS DE ATUAÇÕES",
     "title": "Atuação Jurídica com qualidade",
-    "subtitle": "Soluções personalizadas para defender seus direitos em diferentes ramos do Direito.",
+    "subtitle": "Regularizamos imóveis com agilidade, em cartório ou na Justiça:",
     "card1": {
       "title": "Regularização de Imóveis e Inventários",
       "subtitle": "Patrimônio em ordem é segurança para o presente e valor para o futuro.",
-      "description": "Resolvemos de forma ágil em cartório ou, quando necessário, na Justiça: <br/><br/> • Usucapião; <br/>• Direito de Laje; <br/> • Averbação de Construção; <br/>• Retificação de Área; <br/>• Desmembramento/unificação de lotes; <br/> • Instituição e Convenção de Condomínio; <br/> • Inventário (extrajudicial e judicial). <br/>",
+      "description": "• Usucapião; <br/>• Adjudicação compulsória; <br/> • REURB (Regularização Fundiária Urbana); <br/>• Direito de Laje; <br/>• Averbação de construção; <br/> • Retificação de área; <br/> • Desdobro, divisão e unificação de lotes; <br/> • Instituição e Convenção de Condomínio;  <br/> • Inventário;  <br/><br/> Sempre que possível, concluímos os procedimentos diretamente no Cartório de Registro de Imóveis, com mais rapidez e segurança.",
       "buttonLabelModal": "",
       "buttonLabel": "Saiba mais"
     },
     "card2": {
-      "title": "Cobrança Judicial de Títulos Inadimplidos",
+      "title": "Cobrança Judicial Especializada",
       "subtitle": "Inadimplência não é prejuízo: é crédito a recuperar.",
-      "description": "Atuamos na recuperação de valores sem custos iniciais, tanto para empresas quanto para pessoas físicas: <br/><br/>• Mensalidades escolares não pagas; <br/>• Contratos de serviços ou fornecimento não quitados; <br/>• Notas fiscais, boletos e duplicatas em atraso; <br/>• Cheques e notas promissórias; <br/>• Aluguéis e acordos descumpridos.",
+      "description": "• Mensalidades escolares em atraso; <br/>• Contratos de serviços ou fornecimento não pagos; <br/>• Notas fiscais, boletos e duplicatas; <br/>• Cheques e notas promissórias; <br/>• Aluguéis e acordos descumpridos; <br/><br/> Transformamos inadimplência em resultado.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Saiba mais"
     },
     "card3": {
       "title": "Saúde – Planos de Saúde",
       "subtitle": "Quando a saúde não pode esperar, a Justiça não atrasa.",
-      "description": "Defendemos pacientes contra negativas abusivas dos planos de saúde: <br/><br/>• Exames urgentes; <br/>• Cirurgias e internações; <br/>• Fornecimento de medicamentos. <br/><br/>Ingressamos com ações rápidas e liminares emergenciais para garantir o tratamento no tempo certo.",
+      "description": "• Exames; <br/>• Cirurgias; <br/>• Internações; <br/>• Medicamentos essenciais; <br/><br/>  Quando necessário, buscamos tutela de urgência para garantir o tratamento imediato. <br/><br/> Orientamos e conduzimos juridicamente aposentados e pensionistas com doenças graves (incluindo neoplasias malignas) na isenção do Imposto de Renda, conforme a Lei 7.713/1988 — pela via administrativa ou judicial.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Saiba mais"
     },
     "card4": {
       "title": "<i>Compliance</i> Jurídico",
-      "subtitle": "Prevenir riscos é mais inteligente do que remediar crises.",
-      "description": "Blindamos empresas contra riscos jurídicos e reputacionais: <br/><br/>• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance Contratual – análise e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial.",
+      "subtitle": "Fortalecemos empresas contra riscos jurídicos e reputacionais por meio de:",
+      "description": "• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance contratual – revisão e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial; <br/><br/> Temos parceiro com certificação internacional para auditorias.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Saiba mais"
     },
