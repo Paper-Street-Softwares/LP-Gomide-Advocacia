@@ -117,7 +117,7 @@ export default function FeaturesParagraphs({ colorMode }) {
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
-              className=" h-[640px] opacity-60 object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+              className=" h-[640px] opacity-60 object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/30"
               loading="lazy"
             />
           </MotionDivDownToUp>
