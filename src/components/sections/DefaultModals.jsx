@@ -114,11 +114,11 @@ export default function FeaturesParagraphs({ colorMode }) {
 
           {/* Imagem central */}
           <MotionDivDownToUp className="flex justify-center w-[90%] desktop1:w-[35%] m-auto relative ">
-            <div className="absolute bg-white/20 rounded-2xl inset-0" />
+            {/* <div className="absolute bg-white/20 rounded-2xl inset-0" /> */}
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
-              className=" h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/30"
+              className=" h-[640px] object-cover opacity-40 w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/30"
               loading="lazy"
             />
           </MotionDivDownToUp>
